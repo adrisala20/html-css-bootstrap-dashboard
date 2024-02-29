@@ -58,3 +58,9 @@ main{
     align-items: center;
     justify-content: center;
 }
+/* ********** col f.a.q. ******+*/
+#left-bottom .accordion-button:not(.collapsed) {
+    background-color: ;
+
+}
+/* ******** query ********* */
