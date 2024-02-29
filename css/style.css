@@ -1,3 +1,14 @@
+/* ********* general ********** */
+.wrapper{
+    height: 100vh;
+    background-color: red;
+    /* overflow: hidden; */
+}
+.rm-debug{
+    margin:1px solid black
+}
+
+/* ***** header*******  */
 #nav{
     height: 80px;
     width: 100%;
@@ -7,24 +18,20 @@
     left: 0;
     z-index: 10;
 }
+
+/*  ************ main *********+ */
 main{
     width: 100%;
     height: 100%;
 }
+/* ****** sidebar *********** */
 #sidebar{
     width: 200px;
     background-color: aqua;
     height: 100%;
     padding-top: 80px;
 }
-.wrapper{
-    height: 100vh;
-    background-color: red;
-    /* overflow: hidden; */
-}
-.rm-debug{
-    margin:1px solid black
-}
+/* ******* mainpage */
 #mainpage{
     overflow-y: auto;
     padding-top: 80px;
@@ -37,8 +44,6 @@ main{
     padding: 30px;
     background-color: lightblue
 }
-/* ******* mainpage */
-
 /* ********* col table ******** */
 .icon-nome {
     width: 30px;
