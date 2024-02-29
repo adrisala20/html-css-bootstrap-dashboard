@@ -1,8 +1,9 @@
 /* ********* general ********** */
 .wrapper{
+    width: 100%;
     height: 100vh;
     background-color: red;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .rm-debug{
     margin:1px solid black
@@ -23,6 +24,7 @@
 main{
     width: 100%;
     height: 100%;
+    display: flex;
 }
 /* ****** sidebar *********** */
 #sidebar{
@@ -37,6 +39,7 @@ main{
     padding-top: 80px;
     height: 100%;
     width: calc(100% - 200px);
+    background-color: beige;
 }
 .square-blue{
     width: 100%;
@@ -64,3 +67,16 @@ main{
 
 }
 /* ******** query ********* */
+@media screen and (max-width: 578px){
+    .mainpage {
+        width: calc(100% - 100px);
+        height: 100%;
+    }
+    #sidebar {
+        width: 100px;
+    }
+    .data-table,
+    .roi-table {
+        display: none;
+    }
+}
