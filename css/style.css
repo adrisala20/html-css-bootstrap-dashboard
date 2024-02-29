@@ -1,0 +1,39 @@
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+#sidebar{
+    width: 200px;
+    background-color: aqua;
+    height: 100%;
+    padding-top: 80px;
+}
+.wrapper{
+    height: 100vh;
+    background-color: red;
+    /* overflow: hidden; */
+}
+.rm-debug{
+    margin:1px solid black
+}
+#mainpage{
+    overflow-y: auto;
+    padding-top: 80px;
+    height: 100%;
+    width: calc(100% - 200px);
+}
+.square-blue{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: lightblue
+}
