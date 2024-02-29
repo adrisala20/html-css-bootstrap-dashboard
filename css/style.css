@@ -37,3 +37,19 @@ main{
     padding: 30px;
     background-color: lightblue
 }
+/* ******* mainpage */
+
+/* ********* col table ******** */
+.icon-nome {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
