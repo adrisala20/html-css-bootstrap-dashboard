@@ -17,9 +17,8 @@
     position: fixed;
     top:0;
     left: 0;
-    z-index: 10;
+    z-index: 3000;
 }
-
 /*  ************ main *********+ */
 main{
     width: 100%;
@@ -29,9 +28,12 @@ main{
 /* ****** sidebar *********** */
 #sidebar{
     width: 200px;
-    background-color: aqua;
+    background-color: #052c65;;
     height: 100%;
     padding-top: 80px;
+}
+#sidebar span {
+    display: none;
 }
 /* ******* mainpage */
 #mainpage{
@@ -62,10 +64,7 @@ main{
     justify-content: center;
 }
 /* ********** col f.a.q. ******+*/
-#left-bottom .accordion-button:not(.collapsed) {
-    background-color: ;
 
-}
 /* ******** query ********* */
 @media screen and (max-width: 578px){
     .mainpage {
@@ -78,5 +77,23 @@ main{
     .data-table,
     .roi-table {
         display: none;
+    }
+}
+@media screen and (max-width: 768px)
+{
+
+}
+@media screen and (max-width:992px){
+    .mainpage {
+        width: calc(100% - 200px);
+    }
+    #sidebar {
+        width: 200px;
+    }
+    #sidebar a {
+        font-size: 1em;
+    }
+    #sidebar span {
+        display: block;
     }
 }

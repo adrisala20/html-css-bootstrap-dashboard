@@ -22,192 +22,212 @@
       </div>
     </header>
     <main>
-        <div id="sidebar" class="">
-          SIDEBAR
+      <div id="sidebar" class="d-flex flex-column justify-content-between fs-4 text-center ">
+        <div id="sidebar-top" class="d-flex flex-column align-items-center  fw-bold p-4">
+          <a class="icon-link pb-2 text-white link-offset-2 link-underline link-underline-opacity-0" href="#">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+          <a class="icon-link pb-2 text-white link-offset-2 link-underline link-underline-opacity-0" href="#">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span>Stats</span>
+          </a>
+          <a class="icon-link text-white link-offset-2 link-underline link-underline-opacity-0 " href="#">
+            <i class="fa-solid fa-signal"></i>
+            <span>Signals</span>
+          </a>
         </div>
-        <!-------- mainpage ------ -->
-        <div id="mainpage" class="">
-          <div class="square-blue bg-primary ">
-            nav blue
-          </div>
-          <div class="container-fluid">
-            <div class="row w-100 col-12 col-md-12 col-lg-8 ">
-              <div id="left-top" class=" pt-4">
-                <div class="card">
-                  <h5 class="card-header">Prossime classi</h5>
-                  <div class="card-body">
-                    <!-- ------------table--------- -->
-                    <table class="table table-borderless border-bottom border-secondary-subtle ">
-                      <thead>
-                        <tr>
-                          <th scope="col">Nome</th>
-                          <th scope="col" class="data-table">Data inizio</th>
-                          <th scope="col" class="roi-table">Roi</th>
-                          <th scope="col">Stato</th>
-                          <th scope="col">Azioni</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="position-relative  ">
-                            <i class="fa-solid fa-code icon-nome"></i>
-                            <span class="ps-5 ">Classe 75</span>
-                          </th>
-                          <td class="data-table"> 15 febbraio</td>
-                          <td class="roi-table"> 20%</td>
-                          <td><span class="badge text-bg-success text-white ">Done</span></td>
-                          <td class="d-flex">
-                            <button type="button" class="btn btn-outline-secondary">
-                              <i class="fa-solid fa-pen"></i></button>
-                            <button type="button" class=" btn btn-outline-secondary">
-                              <i class="fa-solid fa-trash-can"></i></button>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="position-relative  ">
-                            <i class="fa-solid fa-code icon-nome"></i>
-                            <span class="ps-5 ">Classe 75</span>
-                          </th>
-                          <td class="data-table"> 15 febbraio</td>
-                          <td class="roi-table"> 20%</td>
-                          <td><span class="badge text-bg-success text-white ">Done</span></td>
-                          <td class="d-flex">
-                            <button type="button" class="btn btn-outline-secondary">
-                              <i class="fa-solid fa-pen"></i></button>
-                            <button type="button" class=" btn btn-outline-secondary">
-                              <i class="fa-solid fa-trash-can"></i></button>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="position-relative  ">
-                            <i class="fa-solid fa-code icon-nome"></i>
-                            <span class="ps-5 ">Classe 75</span>
-                          </th>
-                          <td class="data-table"> 15 febbraio</td>
-                          <td class="roi-table"> 20%</td>
-                          <td><span class="badge text-bg-success text-white ">Done</span></td>
-                          <td class="d-flex">
-                            <button type="button" class="btn btn-outline-secondary">
-                              <i class="fa-solid fa-pen"></i></button>
-                            <button type="button" class=" btn btn-outline-secondary">
-                              <i class="fa-solid fa-trash-can"></i></button>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <!-- ----- col accordition -->
-                <div id="left-bottom" class="pt-4">
-                  <div class="card">
-                    <h5 class="card-header text-uppercase ">f.a.q</h5>
-                    <div class="card-body">
-                      <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button bg-body-secondary " type="button" data-bs-toggle="collapse"
-                              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Come aggiungere un nuova studente?
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ex praesentium quasi
-                              reprehenderit totam aperiam incidunt explicabo doloremque recusandae nemo!
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-body-secondary " type="button"
-                              data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                              aria-controls="collapseTwo">
-                              Come posso accedere alle informazzioni del mio account?
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia quasi dignissimos
-                              error eum quisquam facere tempora ad architecto odio?
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed bg-body-secondary " type="button"
-                              data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                              aria-controls="collapseThree">
-                              Posso usare questa Dashboard dal mio Mobile?
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque cumque in? Dolorum
-                              explicabo modi unde animi, minus sequi atque.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <div id="sidebar-bottom" class="fw-bold p-4">
+          <a class="icon-link text-white link-offset-2 link-underline link-underline-opacity-0 " href="#">
+          <i class="fa-solid fa-gear"></i>
+          <span>Admin</span>
+        </a>
+        </div>
+      </div>
+      <!-------- mainpage ------ -->
+      <div id="mainpage" class="">
+        <div class="square-blue bg-primary ">
+          nav blue
+        </div>
+        <div class="container-fluid">
+          <div class="row w-100 ">
+            <div class="left col-12 col-md-12 col-lg-8">
+            <div id="left-top" class=" pt-4">
+              <div class="card">
+                <h5 class="card-header">Prossime classi</h5>
+                <div class="card-body">
+                  <!-- ------------table--------- -->
+                  <table class="table table-borderless border-bottom border-secondary-subtle ">
+                    <thead>
+                      <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col" class="data-table">Data inizio</th>
+                        <th scope="col" class="roi-table">Roi</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="position-relative  ">
+                          <i class="fa-solid fa-code icon-nome"></i>
+                          <span class="ps-5 ">Classe 75</span>
+                        </th>
+                        <td class="data-table"> 15 febbraio</td>
+                        <td class="roi-table"> 20%</td>
+                        <td><span class="badge text-bg-success text-white ">Done</span></td>
+                        <td class="d-flex">
+                          <button type="button" class="btn btn-outline-secondary">
+                            <i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class=" btn btn-outline-secondary">
+                            <i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="position-relative  ">
+                          <i class="fa-solid fa-code icon-nome"></i>
+                          <span class="ps-5 ">Classe 75</span>
+                        </th>
+                        <td class="data-table"> 15 febbraio</td>
+                        <td class="roi-table"> 20%</td>
+                        <td><span class="badge text-bg-success text-white ">Done</span></td>
+                        <td class="d-flex">
+                          <button type="button" class="btn btn-outline-secondary">
+                            <i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class=" btn btn-outline-secondary">
+                            <i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row" class="position-relative  ">
+                          <i class="fa-solid fa-code icon-nome"></i>
+                          <span class="ps-5 ">Classe 75</span>
+                        </th>
+                        <td class="data-table"> 15 febbraio</td>
+                        <td class="roi-table"> 20%</td>
+                        <td><span class="badge text-bg-success text-white ">Done</span></td>
+                        <td class="d-flex">
+                          <button type="button" class="btn btn-outline-secondary">
+                            <i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class=" btn btn-outline-secondary">
+                            <i class="fa-solid fa-trash-can"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
-              <!-- ----------- col checkbox -->
-              <div id="right" class="col-12 col-md-12 col-lg-4">
-                <div id="right-top" class="pt-4">
-                  <div class="card">
-                    <h5 class="card-header">Todo</h5>
-                    <div class="card-body">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Kickoff nuove classi
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                        <label class="form-check-label" for="flexCheckChecked">
-                          Lezione su Bootstrap 5 in classe #75
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                        <label class="form-check-label" for="flexCheckChecked">
-                          Controllare username github studenti
-                        </label>
+            </div>
+            <!-- ----- col accordition -->
+            <div id="left-bottom" class=" pt-4">
+              <div class="card">
+                <h5 class="card-header text-uppercase ">f.a.q</h5>
+                <div class="card-body">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button bg-body-secondary " type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Come aggiungere un nuova studente?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ex praesentium quasi
+                          reprehenderit totam aperiam incidunt explicabo doloremque recusandae nemo!
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div id="right-bottom" class="pt-4">
-                  <div class="card">
-                    <div class="card-body">
-                      <ul class="list-group">
-                        <li class="list-group-item border-bottom-0 ">
-                          <img src="img/stats.jpeg" alt="immagine grafico" class="img-fluid ">
-                        </li>
-                        <li class="list-group-item ">
-                          <p class="text-uppercase fw-bold">Utenti attivi</p>
-                          <p>Lista degli ultimi attivi in piattaforma nell'ultimo mese</p>
-                        </li>
-                        <li class="list-group-item">Gennaio:1200</li>
-                        <li class="list-group-item">Febbraio: 800</li>
-                        <li class="list-group-item">Marzo: 1500</li>
-                        <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
-                      </ul>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-body-secondary " type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                          aria-controls="collapseTwo">
+                          Come posso accedere alle informazzioni del mio account?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia quasi dignissimos
+                          error eum quisquam facere tempora ad architecto odio?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-body-secondary " type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                          aria-controls="collapseThree">
+                          Posso usare questa Dashboard dal mio Mobile?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque cumque in? Dolorum
+                          explicabo modi unde animi, minus sequi atque.
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          </div>
+          <!-- ----------- col checkbox -->
+          <div id="right" class="col-12 col-md-12 col-lg-4">
+            <div id="right-top" class=" pt-4">
+              <div class="card">
+                <h5 class="card-header">Todo</h5>
+                <div class="card-body">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Kickoff nuove classi
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Lezione su Bootstrap 5 in classe #75
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Controllare username github studenti
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="right-bottom" class="pt-4">
+              <div class="card">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item border-bottom-0 ">
+                      <img src="img/stats.jpeg" alt="immagine grafico" class="img-fluid ">
+                    </li>
+                    <li class="list-group-item ">
+                      <p class="text-uppercase fw-bold">Utenti attivi</p>
+                      <p>Lista degli ultimi attivi in piattaforma nell'ultimo mese</p>
+                    </li>
+                    <li class="list-group-item">Gennaio:1200</li>
+                    <li class="list-group-item">Febbraio: 800</li>
+                    <li class="list-group-item">Marzo: 1500</li>
+                    <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+      </div>
+  </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   </div>
 </body>
 
