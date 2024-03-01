@@ -22,7 +22,8 @@
           <div class="container-fluid">
             <div class="row d-flex w-100 text-center align-items-center  ">
               <div id="logo-nav-header" class="col-2 col-lg-3">
-                <img src="img/mobile-logo.png" alt="logo" class="img-fluid ">
+                <img src="img/mobile-logo.png" alt="logo" class="img-fluid d-block  d-md-none  ">
+                <img src="img/logo.svg" alt="logo" class="d-none d-md-block ">
               </div>
               <div id="cerca-nav-header" class="col-8">
                 <form class="d-flex" role="search">
@@ -30,12 +31,25 @@
                   <button class="btn btn-outline-secondary   " type="submit"> <i class="fa-solid fa-magnifying-glass fa-sm"></i></button>
                 </form>
               </div>
-              <div id="icon-nav-header" class="col-2 col-lg-3"> 
-               <ul class="list-unstyled d-flex ">
+              <div id="icon-nav-header" class="col-2 col-md-2"> 
+               <ul class="list-unstyled text-center d-flex align-items-center ">
                 <li><a href="#"><i class="fa-solid fa-list fa-sm icon-hidden ps-md-2"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-circle-question fa-sm icon-hidden ps-md-2"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-ellipsis-vertical fa-sm icon-hidden ps-md-2"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-bell fa-sm ps-md-2"></i></a></li>
+                <li>
+                  <div class="dropstart">
+                    <a href="#" class="dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bell fa-sm ps-md-2 text-warning"></i></a>
+                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropstart
+                    </button> -->
+                    <ul class="dropdown-menu">
+                      <li>items</li>
+                      <li>items</li>
+                      <li>items</li>
+                    </ul>
+                  </div>
+                </li>
                </ul>
               </div>
             </div>
