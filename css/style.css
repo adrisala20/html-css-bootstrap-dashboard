@@ -51,6 +51,12 @@ main{
 #nav-top .offcanvas{
     width: 500px;
 }
+#nav-center #icon-plus {
+    display: inline-block;
+}
+#badge-hidden {
+    display: none;
+}
 /* ********* col table ******** */
 .icon-nome {
     width: 30px;
@@ -103,6 +109,12 @@ main{
     }
     #nav-top .offcanvas{
         width: 600px;
+    }
+    #nav-center #icon-plus {
+        display: none;
+    }
+    #nav-center .badge-hidden {
+        display:inline-block;
     }
     #class-table .data-table,
     #class-table .roi-table {
