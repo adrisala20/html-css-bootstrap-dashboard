@@ -103,10 +103,13 @@ main{
         width: 200px;
     }
     #cerca-nav-header {
-        width: calc(100% - 400px);
+        width: calc(100% - 300px);
     }
     #icon-nav-header {
-        width: 200px;
+        width: 100px;
+    }
+    #icon-nav-header ul {
+        gap: 10px;
     }
     #sidebar {
         width: 100px;
