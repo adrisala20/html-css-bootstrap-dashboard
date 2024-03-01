@@ -14,11 +14,33 @@
 </head>
 
 <body>
-  <!-- header -->
   <div class="wrapper">
+    <!-- header -->
     <header>
-      <div id="nav">
-        NAVBAR
+      <div id="nav" class="bg-body">
+        <nav class="navbar bg-body ">
+          <div class="container-fluid">
+            <div class="row d-flex w-100 text-center align-items-center  ">
+              <div id="logo-nav-header" class="col-2 col-lg-3">
+                <img src="img/mobile-logo.png" alt="logo" class="img-fluid ">
+              </div>
+              <div id="cerca-nav-header" class="col-8">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-body-tertiary " type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                  <button class="btn btn-outline-secondary   " type="submit"> <i class="fa-solid fa-magnifying-glass fa-sm"></i></button>
+                </form>
+              </div>
+              <div id="icon-nav-header" class="col-2 col-lg-3"> 
+               <ul class="list-unstyled d-flex ">
+                <li><a href="#"><i class="fa-solid fa-list fa-sm icon-hidden ps-md-2"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-circle-question fa-sm icon-hidden ps-md-2"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-ellipsis-vertical fa-sm icon-hidden ps-md-2"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-bell fa-sm ps-md-2"></i></a></li>
+               </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
@@ -169,9 +191,9 @@
                   </p>
                   <i class="fa-solid fa-angles-right fa-sm text-white "></i>
                   <span class="badge rounded-pill text-bg-secondary bg-opacity-50">
-                    <i class="fa-solid fa-plus fa-sm" id="icon-plus"></i>
+                    <i class="fa-solid fa-plus fa-sm icon-plus"></i>
                   </span>
-                    <span class="badge rounded-pill text-bg-secondary bg-opacity-50 badge-hiddden">
+                    <span class="badge rounded-pill text-bg-secondary bg-opacity-50 badge-hidden">
                       Boolean mobile app
                     </span>
                     <span class="badge rounded-pill text-bg-secondary bg-opacity-50 badge-hidden">
@@ -193,6 +215,7 @@
         <!-- ------- row -------- -->
         <div class="container-fluid">
           <div class="row w-100 ">
+            <!-- ---- coll prossime classi -->
             <div id="left" class="col-12 col-md-12 col-lg-8">
               <div id="left-top" class=" pt-4">
                 <div class="card">

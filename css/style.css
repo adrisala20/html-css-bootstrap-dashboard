@@ -13,11 +13,19 @@
 #nav{
     height: 80px;
     width: 100%;
-    background-color: blueviolet;
     position: fixed;
     top:0;
     left: 0;
     z-index: 3000;
+}
+#logo-nav-header {
+    width: 100px;
+}
+#cerca-nav-header {
+    width: calc(100% - 130px);
+}
+#icon-nav-header {
+    width: 30px;
 }
 /*  ************ main *********+ */
 main{
@@ -33,7 +41,8 @@ main{
     height: 100%;
     padding-top: 30px;
 }
-#sidebar a span {
+
+#sidebar span {
     display: none;
 }
 /* ******* mainpage */
@@ -51,10 +60,11 @@ main{
 #nav-top .offcanvas{
     width: 500px;
 }
-#nav-center #icon-plus {
+#nav-center .icon-plus {
     display: inline-block;
 }
-#badge-hidden {
+#icon-nav-header .icon-hidden,
+#nav-center .badge-hidden {
     display: none;
 }
 /* ********* col table ******** */
@@ -89,10 +99,29 @@ main{
     .mainpage {
         width: calc(100% - 100px);
     }
+    #logo-nav-header {
+        width: 200px;
+    }
+    #cerca-nav-header {
+        width: calc(100% - 400px);
+    }
+    #icon-nav-header {
+        width: 200px;
+    }
     #sidebar {
         width: 100px;
     }
-
+    #nav-main{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    #nav-center .icon-plus {
+        display: none;
+    }
+    #icon-nav-header .icon-hidden,
+    #nav-center .badge-hidden {
+        display: inline-block;
+    }
 }
 @media screen and (min-width:992px){
     .mainpage {
@@ -110,36 +139,16 @@ main{
     #nav-top .offcanvas{
         width: 600px;
     }
-    #nav-center #icon-plus {
-        display: none;
-    }
-    #nav-center .badge-hidden {
-        display:inline-block;
-    }
     #class-table .data-table,
     #class-table .roi-table {
-        display: none;
+        display: block;
     }
 }
-@media screen and (min-width: 1200px){
-    .mainpage {
-        width: calc(100% - 200px);
-    }
-    #sidebar {
-        width: 200px;
-    }
-   #sidebar span {
-    display: block;
-   }
+@media screen and (min-width: 1200px){  
    #nav-top .offcanvas{
     width: 700px;
 }
 }
 @media screen and (min-width: 1440px){
-    .mainpage {
-        width: calc(100% - 200px);
-    }
-    #sidebar {
-        width: 200px;
-    }
+  
 }
